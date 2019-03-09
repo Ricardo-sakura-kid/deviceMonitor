@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body, .layui-container,  .layui-row{
+    height: 100%;
+}
+.layui-container{
+    width: 100%;
+    padding: 0;
+}
+.layui-col-md2{
+    height: 100%;
+    background: #23262E;
+}
+.layui-col-md10{
+    height: 100%;
+    background: #e6e6e6;
+}
+.layui-nav{
+    width: 100%;
+}
+.left-top{
+    height: 48px;
+    line-height: 48px;
+    padding-left: 20px;
+    color: #fff;
+}
+.content-tab{
+    height: 100%;
+    background: #fff;
+}
+.content-tab .content-tab-hd{
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 1px solid #e6e6e6;
+    background: #e6e6e6;
+    padding-left: 20px;
+}
+@media screen and (max-width: 1000px) {
+    .layui-container{
+        width: 992px;
+    }
+    .layui-col-md2 {
+        float: left;
+        width: 175px;
+    }
+    .layui-col-md10 {
+        float: left;
+        width: 774px;
+    }
+}
